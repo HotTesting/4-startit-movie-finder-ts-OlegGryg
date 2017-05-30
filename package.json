@@ -7,13 +7,16 @@
     "postinstall": "webdriver-manager update",
     "pretest": "npm run tsc",
     "test": "protractor",
+    "protractor": "protractor",
     "tsc": "tsc",
     "tscw": "tsc -w"
   },
   "dependencies": {
     "@types/node": "^7.0.18",
-    "@types/jasmine": "^2.5.47",
+    "@types/jasmine": "2.5.35",
     "typescript": "^2.3.2",
-    "protractor": "^5.1.1"
-  }
+    "protractor": "^5.1.1",
+    "jasmine2-reporter": "^0.3.0",
+    "jasmine-reporters": "^2.2.1"
+    }
 }
